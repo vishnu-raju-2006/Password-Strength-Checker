@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#strength-bar {
+    height: 10px;
+    width: 0%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
